@@ -1,0 +1,91 @@
+/*General Styles*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #d54700;
+    color: #333;
+}
+
+header{
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+header h1 { 
+    margin:  0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a{
+    color: white
+    text-decoration:  none;
+    font-weight:  bold;
+}
+
+/*Hero Section*/
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('https://images.unsplash.com/photo-1571019613914-85f342c1d4b1?auto=format&fit=ceop&w=1350&q=80');
+    background-size: cover;
+    background-position:center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.btn {
+    background-color: #ffb400;
+    color: #000;
+    padding:  10px 20px;
+    text-decoration: none;
+    border-radius:  5px;
+}
+
+.services, .about, .membership {
+    text-align: center;
+    padding: 50px  20px;
+    background: white;
+    margin:  20px;
+    border-radius: 10px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap:  20px;
+    flex-wrap: wrap;
+}
+
+.plan {
+    background-color: #eee;
+    padding:  20px;
+    border-radius:  10px;
+    width: 250px;
+}
+
+.plan h3 { 
+    color: #ffb400;
+}
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding:  15px;
+    margin-top: 20px;
+}
